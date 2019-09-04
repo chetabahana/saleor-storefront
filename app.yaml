@@ -13,4 +13,4 @@ handlers:
   redirect_http_response_code: 301
 
 env_variables:
-  BACKEND_URL: https://chetabahana.appspot.com/id/
+  BACKEND_URL: https://saleor-dot-chetabahana.appspot.com
