@@ -1,0 +1,8 @@
+steps:
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['beta', 'app', 'deploy', '--version=$_VERSION']
+
+substitutions:
+  _VERSION: development
+  _USER_NAME: chetabahana
